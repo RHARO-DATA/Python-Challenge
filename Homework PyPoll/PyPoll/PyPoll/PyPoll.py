@@ -1,3 +1,5 @@
+# PyPoll challenge
+
 import csv
 import os
 

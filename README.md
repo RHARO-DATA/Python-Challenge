@@ -1,6 +1,6 @@
 
-# Python - Py Me Up, Charlie
-=======
+# Python 
+====================
 
 
 
@@ -24,5 +24,6 @@ In order to help a small rural town modernize its vote-counting process, I creat
     The percentage of votes each candidate won
     The total number of votes each candidate won
     The winner of the election based on popular vote.
-=======
+
+===================
 

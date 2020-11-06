@@ -1,11 +1,15 @@
 # Budget Data
 
+# Dependecies
 import os
 import csv
 
 
 # Path to file
 budget_csv = os.path.join("..", "Resources","budget_data.csv")
+# Files Output
+
+
 
 date = []            # List for the dates
 profit_losses = []   # List for Profit / Losses 
@@ -21,7 +25,7 @@ with open(budget_csv,'r', newline= "") as csvfile:
      # Create the csv reader object
     csvreader = csv.reader(csvfile, delimiter = ',')
     
-
+    # Read the header row
     csv_header = next(csvreader)   
 
     # Read each row of data 
@@ -30,8 +34,6 @@ with open(budget_csv,'r', newline= "") as csvfile:
         date.append(row[0])             # add dates to the lis
         profit_losses.append(row[1])    # add profit / losses to the list
         total = total + int(row[1])     # Total amount
-
-
 
     month2 = profit_losses
 

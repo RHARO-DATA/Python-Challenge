@@ -38,8 +38,6 @@ with open(election_csv,'r', newline= "") as csvfile:
 
 # Total Votes
 total_votes = int(len(votes))
-
-
 total_khan =round( (khan * 100) / total_votes)        #Total votes for Kham
 total_correy = round( (correy * 100) / total_votes)   #Total votes for Correy
 total_li =round( (li * 100) / total_votes)            #Total votes for Li
